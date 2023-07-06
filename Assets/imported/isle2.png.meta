@@ -1,0 +1,2612 @@
+fileFormatVersion: 2
+guid: 2e5824878c3495c449cabb0e135c6024
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: isle2_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1003
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3a89f149060c24da9b60ee9cf00218
+      internalID: 333636312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1003
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8ec5def4a9eed42815c0934115200a
+      internalID: -310921574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1005
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833441563d19ebd4e8f0ffddcf3ab3b2
+      internalID: -733543951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_3
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1007
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728cc8b220776fe4a8c0d08bcce53bf5
+      internalID: -1377816529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_4
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1003
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fd8737cb4f72948852dac5f59e8773
+      internalID: 1865879739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 906
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1df7844f4fe434b8d3361e23d0b460
+      internalID: 313679715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 906
+        width: 82
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2218d1ed0fa03ad47b356101b6297dcd
+      internalID: 1277988122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_7
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 906
+        width: 82
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3fa99b99c06e542b87c9bcb127878d
+      internalID: -340808988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_8
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 906
+        width: 82
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7b47e69441e8049acae298992cdd69
+      internalID: -1652059389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_9
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 906
+        width: 82
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f40a7c977b0d584eaf3a373e2ac06a2
+      internalID: -839285806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_10
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 906
+        width: 83
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc484f467d166348a5f1ceb77740072
+      internalID: 641593069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_11
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 906
+        width: 83
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed332d49c639edd47874a8da2eed01cc
+      internalID: 1216356099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 812
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfc54b79434fc04da5baed10ac3ef48
+      internalID: -2135297528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 810
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d9f1d99e359814c8a1e22c5aef9809
+      internalID: -1732805547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_14
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 808
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ad382ecda13534db9fa6b86c0971b8
+      internalID: 2003965213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_15
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 812
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964615b75019a4349bca6671692d1e1f
+      internalID: 1734757891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_16
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 815
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03aee8fb32a331e4fb594f1231fd5897
+      internalID: -141769605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_17
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 812
+        width: 75
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beaa541c8107e62428dde08091006d2a
+      internalID: 1440380140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_18
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 812
+        width: 71
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86ce1807699ff54ea2019e727baa72f
+      internalID: -401373595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_19
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 810
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86616ee332fc07d4ba975a60afb54325
+      internalID: -452460914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_20
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 810
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1a42bf0d69e7243bc500052e170da9
+      internalID: -306092628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_21
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 810
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d90a219105174b4e967e1d697b72476
+      internalID: 813942890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_22
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 727
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefc3a8590c2a0142a786a5fcc09f907
+      internalID: -987667023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 725
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d9fe6de3a57ac4c90cdb7803971b0a
+      internalID: -570546524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_24
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 723
+        width: 57
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adef4769f01b74c45aa37bbe7c8d7b66
+      internalID: 2120758635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_25
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 714
+        width: 57
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb74dcb8ec98da418f0fc44ce4fed2e
+      internalID: 60855625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_26
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 714
+        width: 57
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c9e90da6e93f24aaf7aa86acae1ad7
+      internalID: -1718767017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_27
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 714
+        width: 57
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a709786e1dab944f9583ba4e766216d
+      internalID: -1964331727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_28
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 714
+        width: 57
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e114a1d4850b66844b328265d26e26ef
+      internalID: -1292513945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_29
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 714
+        width: 62
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1d5bbe16dad80489438a5057ab4222
+      internalID: -1552640391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_30
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 638
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9c7afc29e8c8c41a0c4a0828b8a404
+      internalID: 1336471709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 633
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6044b00a3fa9c8145a24c3a2abe53a92
+      internalID: 635667254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_32
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 629
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f8238f042388c4da4c92e0350adaae
+      internalID: -641864715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_33
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 624
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a3667b0e7b1fe4fa091686e452c92c
+      internalID: 588297649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_34
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 624
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadaab2dbb6554044b3f7a8e38f9467a
+      internalID: 672830910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_35
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 629
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7466aa51b2d7e034caeaac90efa1f7dc
+      internalID: -498302766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_36
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 633
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6df55734b6c5bf41af4ea58e371a397
+      internalID: -1668297503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_37
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e576f1242d43a354896ccd7118a2252d
+      internalID: -1356888979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_38
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856edc8400a86f5459b49f22077793f7
+      internalID: 2138010841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_39
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 638
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb4434a2efb5364f813655224d41043
+      internalID: -44385332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_40
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 638
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713da69d5140a804baa3fc49fb07ac06
+      internalID: -542932330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_41
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 638
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539d722e6534ca04fad9203ee44e40d1
+      internalID: -1192681142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_42
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 633
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262aefc98209bd942a0e613ab117297f
+      internalID: -1476450445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_43
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 629
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc5901b0ccd1d048827ae80c6c1c970
+      internalID: -1232806165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_44
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 624
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5124efff335fb84ea5755a67e623179
+      internalID: -1129039140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_45
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 624
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4adcc18c699304f94d43c1f7e04af4
+      internalID: -1507540588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_46
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 629
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87a19ae87685df4a904e1d1eef6d8c8
+      internalID: -740071373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_47
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 633
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085266a2bd865354eab0beae999a53be
+      internalID: -112699164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_48
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 546
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2916327bdfb78ee43846633c988c9009
+      internalID: -841404927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 546
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1065b684517a943af219d1458a1649
+      internalID: 1856360872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_50
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 546
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e6aa8482e53ca47a5df9110bf0d59c
+      internalID: 579112980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_51
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 546
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302c3a2be9f4ee14cb59b2b21241464b
+      internalID: 1926390948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_52
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 548
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba24497619cec84e9c02b507ead5afc
+      internalID: 840271058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_53
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 546
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0859f272d034946b54474eb2ec360c
+      internalID: -555010866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_54
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 548
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f863d7bd536f242ae800c11c42e539
+      internalID: 1015523994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_55
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 546
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e69fb1aeb40054ebc908ed1c76706a
+      internalID: 555936095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_56
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 548
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27321516d9e5524a93019b1e7cdcf7d
+      internalID: 1342119320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_57
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 551
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb9f2b7a026a7a4d9032733cdaab824
+      internalID: 2060869312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_58
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 548
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c741851fd2f9fdc45ba3185af6ebae93
+      internalID: -504778857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_59
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 551
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4ea6d2446e7af4fa53a1265e339c27
+      internalID: -1165867008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_60
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 549
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd3efc16aa3c8f42b19257a9f738d58
+      internalID: -71631276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_61
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 546
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f533e2f0359816743bab524d5db7ddc0
+      internalID: 219223362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_62
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 548
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb45161cc25c79c4491b49d3bc08c01c
+      internalID: -1713350132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_63
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 546
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385f929977b6cdc46b56f6ca1505b2ab
+      internalID: -370881729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_64
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 498
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a04f2205dbe72e478334aa16dfd2a24
+      internalID: -1717192501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_65
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 498
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c720b586db85a342b29de95740cb549
+      internalID: -944954577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_66
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 498
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb9539d3373a6a4b91fc86167383b52
+      internalID: -352308755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_67
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 498
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505112c0d0fc28146b2c4697a8c8d57c
+      internalID: -312866968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_68
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 418
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0b8d6d0bfba344a96995ec67d8b829
+      internalID: 416395113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_69
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 418
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece8f643a208f564c8f4c6a88632d1ff
+      internalID: 1359774408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_70
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 420
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f566a1e5e90f8124f841d57c12f2b5a5
+      internalID: 750050063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_71
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 422
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0214990f40e9ec94fad596c2440e04ce
+      internalID: 1836141691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_72
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 420
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a145c45c9161344d92f7e21839805cd
+      internalID: 716754813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_73
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 420
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fc502026d6460408cd5efadee9210a
+      internalID: 267611475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_74
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 418
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb10def5aad9f943a8fd427d2d8450d
+      internalID: -817763394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_75
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 420
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281abfc44161f344c935fe18ca1cde94
+      internalID: 1541565198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_76
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 422
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23e51046ea99f641893fd064a142a57
+      internalID: 221992149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_77
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 422
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e673a1102647b469eeb16dd8c74d82
+      internalID: -1777741740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_78
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 420
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71be4cff86bf02c498b719593d7c6d28
+      internalID: -554021179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_79
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 420
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c5830542a0a944da1fbe16ff68928d
+      internalID: -2110296871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_80
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 360
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8bcba68de59c74bb1596fad7090a5c
+      internalID: 2096823760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_81
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 360
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7192de5ad70f47b44a7458f12cb1e3f1
+      internalID: -1434256656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_82
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 370
+        width: 73
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf275d67000c1f84b86c8f29c09d9545
+      internalID: 625464935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_83
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 360
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3dfcc3df4f30347b1f4314eeeaa351
+      internalID: 1256882927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_84
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 360
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988308bfd50289b43bc5e42c25f68201
+      internalID: -1562640211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_85
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 360
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8a492e22ea074408aa516c74e4b43e
+      internalID: 635938038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_86
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 360
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9448bd4e79f1784e814447b1cce361a
+      internalID: 348507152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_87
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 360
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e6977bb33450b41b4bc7efe13b3f31
+      internalID: -393557393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_88
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 370
+        width: 73
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbf068bf1e29524990a0d7b1ae56bcc
+      internalID: 180509542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_89
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 360
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382b6b29fcd9f8247b39dbf1b0bff99b
+      internalID: -847098888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_90
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 360
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1606ca4f499e50140bf9d2019849b5ba
+      internalID: 2070445464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_91
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 360
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a83052f22584d943aabc5854a21f622
+      internalID: -1597916336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_92
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 282
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d9efdd46588f64bb294eb8d7f306bb
+      internalID: -313954514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_93
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 282
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319b54d92d3e15945bfb1ae9889bae5a
+      internalID: 65700044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_94
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 285
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118730b5830bbcd4da1ce214b2c42ddf
+      internalID: -1374989897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_95
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 285
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9739fa0a1f79d654cbbbb62857c4c05a
+      internalID: 536196333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_96
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 285
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2a9661af404b64c8eb24d228d303d8
+      internalID: -2085219943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_97
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 285
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786cbf1e2914099409f01dc7b9d0cd11
+      internalID: -752431366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_99
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 225
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597c90e5baae2994a9bcb52d4ef21fc3
+      internalID: -1520828116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_100
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 225
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d12e9422415b7643b6e9c8cbc45ab6f
+      internalID: 1759720052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_101
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 225
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4581a8c1ebb4344a831a133dfcf46af
+      internalID: -1201011449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 225
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a856651aafed8724abc6ae19ced411eb
+      internalID: 73864278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_103
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 225
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9884c9decf2b4b41b246ccd6f80ad4b
+      internalID: 1239790730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_104
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 225
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c41824f84becf47bc1b2bb86777cba
+      internalID: -480001987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_106
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 170
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be95b32b35e96e4b91de08b448b4e75
+      internalID: -1391756950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_107
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 170
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734f22d1a6c392d4981976bef9182594
+      internalID: 483827403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_108
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 170
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087365f84d4a82340abf22bf052680c9
+      internalID: -21304380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_109
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 170
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8fb838519d6244485d971a6f3a9488
+      internalID: 1802872490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_110
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 74
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc72106a0d222a841863eb2d0003ef4d
+      internalID: 56622484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_111
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 74
+        width: 69
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e46101fd07b9949a6bf894eb56cd36
+      internalID: -653732493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_112
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 74
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d04f93286a9ffc4e990bf2de1a7f50c
+      internalID: -645716930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_113
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 74
+        width: 73
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f162cb6f28b3f4d801f014e834f5c0
+      internalID: -1050320700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isle2_114
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c447e9b2018964f9629c4824aa9968
+      internalID: 1526795611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      isle2_41: -1192681142
+      isle2_105: 1805545798
+      isle2_94: -1374989897
+      isle2_21: 813942890
+      isle2_7: -340808988
+      isle2_3: -1377816529
+      isle2_20: -306092628
+      isle2_48: -841404927
+      isle2_52: 840271058
+      isle2_66: -352308755
+      isle2_30: 1336471709
+      isle2_2: -733543951
+      isle2_74: -817763394
+      isle2_99: -1520828116
+      isle2_10: 641593069
+      isle2_8: -1652059389
+      isle2_100: 1759720052
+      isle2_9: -839285806
+      isle2_84: -1562640211
+      isle2_111: -653732493
+      isle2_4: 1865879739
+      isle2_104: -480001987
+      isle2_23: -570546524
+      isle2_82: 625464935
+      isle2_36: -1668297503
+      isle2_53: -555010866
+      isle2_95: 536196333
+      isle2_98: 473037564
+      isle2_102: 73864278
+      isle2_55: 555936095
+      isle2_67: -312866968
+      isle2_88: 180509542
+      isle2_62: -1713350132
+      isle2_113: -1050320700
+      isle2_68: 416395113
+      isle2_18: -401373595
+      isle2_77: -1777741740
+      isle2_5: 313679715
+      isle2_16: -141769605
+      isle2_25: 60855625
+      isle2_13: -1732805547
+      isle2_22: -987667023
+      isle2_51: 1926390948
+      isle2_107: 483827403
+      isle2_87: -393557393
+      isle2_39: -44385332
+      isle2_15: 1734757891
+      isle2_63: -370881729
+      isle2_38: 2138010841
+      isle2_26: -1718767017
+      isle2_93: 65700044
+      isle2_45: -1507540588
+      isle2_6: 1277988122
+      isle2_101: -1201011449
+      isle2_34: 672830910
+      isle2_106: -1391756950
+      isle2_109: 1802872490
+      isle2_35: -498302766
+      isle2_0: 333636312
+      isle2_50: 579112980
+      isle2_43: -1232806165
+      isle2_24: 2120758635
+      isle2_72: 716754813
+      isle2_54: 1015523994
+      isle2_64: -1717192501
+      isle2_90: 2070445464
+      isle2_78: -554021179
+      isle2_103: 1239790730
+      isle2_46: -740071373
+      isle2_56: 1342119320
+      isle2_28: -1292513945
+      isle2_37: -1356888979
+      isle2_76: 221992149
+      isle2_81: -1434256656
+      isle2_32: -641864715
+      isle2_85: 635938038
+      isle2_42: -1476450445
+      isle2_58: -504778857
+      isle2_86: 348507152
+      isle2_40: -542932330
+      isle2_1: -310921574
+      isle2_91: -1597916336
+      isle2_31: 635667254
+      isle2_108: -21304380
+      isle2_59: -1165867008
+      isle2_44: -1129039140
+      isle2_11: 1216356099
+      isle2_27: -1964331727
+      isle2_79: -2110296871
+      isle2_29: -1552640391
+      isle2_60: -71631276
+      isle2_80: 2096823760
+      isle2_61: 219223362
+      isle2_96: -2085219943
+      isle2_70: 750050063
+      isle2_73: 267611475
+      isle2_49: 1856360872
+      isle2_57: 2060869312
+      isle2_71: 1836141691
+      isle2_17: 1440380140
+      isle2_92: -313954514
+      isle2_12: -2135297528
+      isle2_65: -944954577
+      isle2_97: -752431366
+      isle2_110: 56622484
+      isle2_14: 2003965213
+      isle2_47: -112699164
+      isle2_69: 1359774408
+      isle2_19: -452460914
+      isle2_112: -645716930
+      isle2_33: 588297649
+      isle2_114: 1526795611
+      isle2_75: 1541565198
+      isle2_83: 1256882927
+      isle2_89: -847098888
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
