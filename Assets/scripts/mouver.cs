@@ -27,16 +27,18 @@ public class mouver : MonoBehaviour
         {
             rb.AddForce(new Vector2(rb.velocity.x,jump));
         }
-        private void OnCollisionEnter2D(Collision2D other)
-    {
-        if(other.gameObject.CompareTag("gnd"))
-            {
-                isonair = false;
-            }
+
     }
-        private void OnCollisionExit2D(Collision2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if( other.gameObject.CompareTag("gnd"))
+        if (other.gameObject.CompareTag("gnd"))
+        {
+            isonair = false;
+        }
     }
-}
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("gnd")) isonair = true;
+    }
 }
