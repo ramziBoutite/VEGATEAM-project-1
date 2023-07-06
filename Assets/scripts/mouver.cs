@@ -23,6 +23,10 @@ public class mouver : MonoBehaviour
     {
         inp = Input.GetAxis("Horizontal");
         rb.velocity = new  Vector2(inp * speed, rb.velocity.y);
+        if(inp<0f)
+        { transform.localScale = new Vector3(-1, 1, 1); }
+        else if (inp>0f)
+        { transform.localScale = new Vector3(1, 1, 1); }
         if(Input.GetButtonDown("Jump")&& !isonair)
         {
             rb.AddForce(new Vector2(rb.velocity.x,jump));
