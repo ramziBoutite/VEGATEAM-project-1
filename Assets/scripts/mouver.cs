@@ -41,4 +41,5 @@ public class mouver : MonoBehaviour
     {
         if (other.gameObject.CompareTag("gnd")) isonair = true;
     }
+    
 }
