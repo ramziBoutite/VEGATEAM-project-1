@@ -8,13 +8,28 @@ public class bullet : MonoBehaviour
     private Vector3 mousePos;
     private Camera mainCam;
     private Rigidbody2D rb;
-    public mouver dir;
+   
     public float force;
     
     void Start()
     {
          mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
          rb = GetComponent<Rigidbody2D>();
+         mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
+         Vector3 direction = mousePos - transform.position;
+         
+       
+
+
+
+        
+        
+            rb.velocity = new Vector2(direction.x, 0).normalized * force;
+        
+        
+         
+        
+            
        
         
        }
@@ -29,30 +44,6 @@ public class bullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-          mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
-         Vector3 direction = mousePos - transform.position;
-         
-       
-
-
-
-          if (direction.x > 0f && dir.transform.localScale == new Vector3(1,1,1) )
-        {
-            rb.velocity = new Vector2(direction.x, 0).normalized * force;
-        }
-        else
-        {
-           
-            Destroy(gameObject);
-        }
-         if (direction.x < 0f && dir.transform.localScale == new Vector3(-1,1,1) )
-        {
-            rb.velocity = new Vector2(direction.x, 0).normalized * force;
-        }
-        else
-        {
-           
-            Destroy(gameObject);
-        }
-    }
+          
+}
 }
