@@ -12,7 +12,7 @@ public class shoot : MonoBehaviour
     private float timer;
     public float timeBetweenFiring;
     public bool canFire;
-    public mouver mov;
+    public GameObject mov;
 
     
 
@@ -27,19 +27,19 @@ public class shoot : MonoBehaviour
         if(mov.transform.localScale==new Vector3(1,1,1)){
           Vector3 rotation = mousePos - transform.position;
           float rot2 = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
-          float t = Mathf.InverseLerp(-180f, 180f, rot2);
-        float clampedRot2 = Mathf.Lerp(-5, 15, t);
+        transform.rotation = Quaternion.Euler(0,0,rot2);
 
-        
-        aimTransform.rotation = Quaternion.Euler(0, 0, clampedRot2);
+          //float t = Mathf.InverseLerp(-180f, 180f, rot2);
+          //float clampedRot2 = Mathf.Lerp(-5, 15, t);
+       // aimTransform.rotation = Quaternion.Euler(0, 0, clampedRot2);
         }else if(mov.transform.localScale==new Vector3(-1,1,1)){
             Vector3 rotation = transform.position - mousePos;
             float rot2 = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
-            float t = Mathf.InverseLerp(180f, -180f, rot2);
-        float clampedRot2 = Mathf.Lerp(5, -15, t);
-
-        
-        aimTransform.rotation = Quaternion.Euler(0, 0, clampedRot2);
+            transform.rotation = Quaternion.Euler(0, 0, rot2);
+            
+            //float t = Mathf.InverseLerp(180f, -180f, rot2);
+            //float clampedRot2 = Mathf.Lerp(5, -15, t);
+            //aimTransform.rotation = Quaternion.Euler(0, 0, clampedRot2);
         }
    
         
@@ -61,10 +61,7 @@ public class shoot : MonoBehaviour
         if (Input.GetMouseButton(0) && canFire)
         {
             canFire = false;
-            
-            
-            
-                Instantiate(bullet, bulletTransform.position, Quaternion.identity);
+            Instantiate(bullet, bulletTransform.position, Quaternion.identity);
             
         }
     }
