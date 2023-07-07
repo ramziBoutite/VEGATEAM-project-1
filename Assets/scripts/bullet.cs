@@ -22,23 +22,14 @@ public class bullet : MonoBehaviour
         float rot2 = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rot2 );
 
-
-
-
-
-         
-       
-        
-       
-    
-
-
-    
-
+    }
     // Update is called once per frame
     void Update()
     {
-          
-}
-}
+        if (gameObject.transform.position.x > 5000f || gameObject.transform.position.x < -5000f || gameObject.transform.position.y < -100f || gameObject.transform.position.y > 100f)
+        {
+            Destroy(gameObject);
+        }
+    }
+
 }
