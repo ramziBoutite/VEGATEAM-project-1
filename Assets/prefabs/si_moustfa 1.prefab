@@ -299,6 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parrent: {fileID: 1730330574239138717}
   parrentGO: {fileID: 1730330574239138712}
+  shootGO: {fileID: 4805508302698995607}
 --- !u!1 &7830541317265187254
 GameObject:
   m_ObjectHideFlags: 0

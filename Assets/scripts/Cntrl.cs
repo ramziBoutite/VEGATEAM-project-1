@@ -5,13 +5,17 @@ using UnityEngine;
 public class Cntrl : MonoBehaviour
 {
     private Animator Anim;
-    public Rigidbody2D parrent;
-    public GameObject parrentGO;
+    public Rigidbody2D parrent;//for running animation
+    public GameObject parrentGO;//for jumping animation
+    public GameObject shootgo;//for shooting animation
     private bool jumping;
+    private bool fireGreenFlag;
     // Start is called before the first frame update
     void Start()
     {
         Anim = GetComponent<Animator>();
+       // parrentGO = GameObject.FindGameObjectWithTag("parrentGO");
+        shootgo = GameObject.FindGameObjectWithTag("shootgo");
     }
 
     // Update is called once per frame
@@ -36,7 +40,15 @@ public class Cntrl : MonoBehaviour
         {
             Anim.SetBool("jump", false);
         }
-
+        //fireGreenFlag = shootgo.gameObject.GetComponent<shoot>().canFire;
+        if (Input.GetMouseButton(0) && fireGreenFlag)
+        {
+            Anim.SetBool("shoot", true);
+        }
+        else
+        {
+            Anim.SetBool("shoot",false);
+        }
 
     }
 }
