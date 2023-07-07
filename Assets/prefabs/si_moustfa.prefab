@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3322305775200281408}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.107, y: 0.428, z: 0}
+  m_LocalPosition: {x: 0.063, y: 0.391, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -119,6 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parrent: {fileID: 8406238816727170890}
+  parrentGO: {fileID: 8406238816727170895}
 --- !u!1 &8406238816727170895
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,6 +244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5.5
   jump: 900
+  isonair: 0
 --- !u!70 &1106414675768654446
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

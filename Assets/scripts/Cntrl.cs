@@ -6,6 +6,8 @@ public class Cntrl : MonoBehaviour
 {
     private Animator Anim;
     public Rigidbody2D parrent;
+    public GameObject parrentGO;
+    private bool jumping;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +17,7 @@ public class Cntrl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if(parrent.velocity.x <0f || parrent.velocity.x >0f)
         {
             Anim.SetBool("startRun", true);
@@ -23,7 +26,9 @@ public class Cntrl : MonoBehaviour
         {
             Anim.SetBool("startRun", false);
         }
-        if (parrent.velocity.y < 0f || parrent.velocity.y > 0)
+        //////////////////////////////////////////
+        jumping = parrentGO.gameObject.GetComponent<mouver>().isonair;
+        if (jumping)
         {
             Anim.SetBool("jump", true);
         }

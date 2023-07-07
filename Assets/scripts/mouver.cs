@@ -11,7 +11,7 @@ public class mouver : MonoBehaviour
     private float inp;
     private Rigidbody2D rb;
     public float jump;
-    private bool isonair;
+    public bool isonair;
     private Animator Anim;
 
     // Start is called before the first frame update
