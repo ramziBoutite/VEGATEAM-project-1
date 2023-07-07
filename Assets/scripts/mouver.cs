@@ -50,12 +50,14 @@ public class mouver : MonoBehaviour
     {
         if (other.gameObject.CompareTag("gnd"))
         {
+            Anim.SetBool("jump", false);
             isonair = false;
         }
     }
 
     private void OnCollisionExit2D(Collision2D other)
     {
+        Anim.SetBool("jump", true);
         if (other.gameObject.CompareTag("gnd")) isonair = true;
     }
     

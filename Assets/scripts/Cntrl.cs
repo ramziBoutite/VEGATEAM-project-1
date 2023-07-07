@@ -23,7 +23,7 @@ public class Cntrl : MonoBehaviour
         {
             Anim.SetBool("startRun", false);
         }
-        if (parrent.velocity.y < 0f || parrent.velocity.y > 0f)
+        if (parrent.velocity.y < 0f || parrent.velocity.y > 0)
         {
             Anim.SetBool("jump", true);
         }
