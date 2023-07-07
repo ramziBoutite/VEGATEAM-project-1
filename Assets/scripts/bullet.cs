@@ -16,21 +16,17 @@ public class bullet : MonoBehaviour
          rb = GetComponent<Rigidbody2D>();
          mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
          Vector3 direction = mousePos - transform.position;
-         
-       
+        rb.velocity = new Vector2(direction.x, direction.y).normalized * force;
+        Vector3 rotation = transform.position - mousePos;
+        float rot2 = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, rot2 );
 
 
 
-          if (direction.x > 0f)
-        {
-            rb.velocity = new Vector2(direction.x, 0).normalized * force;
-        }
-        else
-        {
-           
-            Destroy(gameObject);
-        }
-       }
+
+
+
+    }
        
         
        
