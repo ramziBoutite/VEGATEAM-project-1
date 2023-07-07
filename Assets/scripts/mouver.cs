@@ -11,10 +11,12 @@ public class mouver : MonoBehaviour
     private Rigidbody2D rb;
     public float jump;
     private bool isonair;
+    private Animator Anim;
 
     // Start is called before the first frame update
     void Start()
     {
+        Anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -24,9 +26,19 @@ public class mouver : MonoBehaviour
         inp = Input.GetAxis("Horizontal");
         rb.velocity = new  Vector2(inp * speed, rb.velocity.y);
         if(inp<0f)
-        { transform.localScale = new Vector3(-1, 1, 1); }
+        {
+            Anim.SetBool("startRun", true);
+            transform.localScale = new Vector3(-1, 1, 1); 
+        }
         else if (inp>0f)
-        { transform.localScale = new Vector3(1, 1, 1); }
+        { 
+            Anim.SetBool("startRun",true);
+            transform.localScale = new Vector3(1, 1, 1); 
+        }
+        else
+        {
+            Anim.SetBool("startRun", false);
+        }
         if(Input.GetButtonDown("Jump")&& !isonair)
         {
             rb.AddForce(new Vector2(rb.velocity.x,jump));
