@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class animCntrl : MonoBehaviour
+public class Cntrl : MonoBehaviour
 {
     private Animator Anim;
     public Rigidbody2D parrent;
@@ -23,6 +23,15 @@ public class animCntrl : MonoBehaviour
         {
             Anim.SetBool("startRun", false);
         }
-       
+        if (parrent.velocity.y < 0f || parrent.velocity.y > 0f)
+        {
+            Anim.SetBool("jump", true);
+        }
+        else
+        {
+            Anim.SetBool("jump", false);
+        }
+
+
     }
 }
