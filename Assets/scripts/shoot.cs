@@ -3,72 +3,70 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class shoot : MonoBehaviour
-
 {
     private Camera mainCam;
     private Vector3 mousePos;
     public GameObject bullet;
     public Transform bulletTransform;
+    public Transform aimTransform;
     private float timer;
     public float timeBetweenFiring;
     public bool canFire;
-     
+    public mouver mov;
+
+    
+
     void Start()
     {
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
-
     }
 
-    // Update is called once per frame
     void Update()
     {
         mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
+        if(mov.transform.localScale==new Vector3(1,1,1)){
+          Vector3 rotation = mousePos - transform.position;
+          float rot2 = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
+          float t = Mathf.InverseLerp(-180f, 180f, rot2);
+        float clampedRot2 = Mathf.Lerp(-5, 15, t);
 
-        Vector3 rotation = mousePos - transform.position;
+        
+        aimTransform.rotation = Quaternion.Euler(0, 0, clampedRot2);
+        }else if(mov.transform.localScale==new Vector3(-1,1,1)){
+            Vector3 rotation = transform.position - mousePos;
+            float rot2 = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
+            float t = Mathf.InverseLerp(180f, -180f, rot2);
+        float clampedRot2 = Mathf.Lerp(5, -15, t);
 
-        float rot2 = Mathf.Atan2(rotation.y,rotation.x) * Mathf.Rad2Deg; 
-
-         
-
-        transform.rotation = Quaternion.Euler(0,0,rot2);
+        
+        aimTransform.rotation = Quaternion.Euler(0, 0, clampedRot2);
+        }
+   
+        
         
 
-        if(!canFire)
+        
+        
+
+        if (!canFire)
         {
             timer += Time.deltaTime;
-            if(timer > timeBetweenFiring)
+            if (timer > timeBetweenFiring)
             {
                 canFire = true;
-                timer =0;
+                timer = 0;
             }
         }
 
         if (Input.GetMouseButton(0) && canFire)
-{
-    canFire = false;
-    if (Input.GetKey(KeyCode.LeftArrow))
-    {
-        Instantiate(bullet, bulletTransform.position, Quaternion.Euler(0, 0, 180f));
-    }
-    else
-    {
-        Instantiate(bullet, bulletTransform.position, Quaternion.identity);
-    }
-}
-
-           
+        {
+            canFire = false;
             
             
-
+            
+                Instantiate(bullet, bulletTransform.position, Quaternion.identity);
+            
         }
     }
-
-     
-
-
-
-
-
-
-
-
+    
+}
