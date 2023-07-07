@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3060783453652673900}
   - component: {fileID: 7974963396445957314}
+  - component: {fileID: 89473223499892093}
   m_Layer: 0
   m_Name: upperBody
   m_TagString: Untagged
@@ -84,6 +85,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &89473223499892093
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3322305775200281408}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f2638ad2a8d442243b1b371f9f8af7ca, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8406238816727170895
 GameObject:
   m_ObjectHideFlags: 0
@@ -96,6 +117,7 @@ GameObject:
   - component: {fileID: 8406238816727170888}
   - component: {fileID: 8406238816727170890}
   - component: {fileID: 8406238816727170884}
+  - component: {fileID: 1106414675768654446}
   m_Layer: 0
   m_Name: si_moustfa
   m_TagString: Untagged
@@ -206,3 +228,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7.5
   jump: 900
+--- !u!70 &1106414675768654446
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8406238816727170895}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.04660976, y: 0.26594922}
+  m_Size: {x: 0.36363387, y: 0.89004844}
+  m_Direction: 0
