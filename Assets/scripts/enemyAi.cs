@@ -46,23 +46,29 @@ public class enemyAi : MonoBehaviour
             transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
             anim.SetBool("walk",true);
         }
-        else if(distancefromPlayer< shootingRange && canFire)
+        else if(distancefromPlayer <= shootingRange && canFire)
             {
-            canFire = false;
-            anim.SetBool("shoot",true);
+            anim.SetBool("shoot", true);
             Instantiate(enemyBullet, enemyBulletSpawn.transform.position, Quaternion.identity);
+            canFire = false;
+            
             
         }
         else
         {
-            anim.SetBool("shoot", false);
+           
             anim.SetBool("walk",false);
         }
         if(!canFire) {
+           
             timeOffiring += Time.deltaTime;
             if (timeOffiring > fireRate)
+            {
                 canFire = true;
-            timeOffiring = 0;
+                timeOffiring = 0f;
+            }
+            anim.SetBool("shoot", false);
+           
             
         }
     }
