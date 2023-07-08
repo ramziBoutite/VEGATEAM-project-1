@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9207218312694878912}
   - component: {fileID: 1719409677186003823}
   - component: {fileID: 8769348718436077030}
+  - component: {fileID: 8735748805483145667}
   m_Layer: 0
   m_Name: mine
   m_TagString: Untagged
@@ -135,3 +136,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8735748805483145667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9207218312694878913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf5bbbdd8b5dbc4bb26d92a015051d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 100
