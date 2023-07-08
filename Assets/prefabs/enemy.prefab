@@ -120,11 +120,11 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 6.5
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!95 &1917886145416503417
 Animator:
@@ -159,10 +159,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  followDistance: 5.5
-  shootingRange: 3.08
+  followDistance: 4.93
+  shootingRange: 3.29
   enemyBullet: {fileID: 9082158102181301072, guid: 293dd4cc6e069324791537641dbd05d0, type: 3}
   enemyBulletSpawn: {fileID: 6661929048491096375}
+  fireRate: 1.98
 --- !u!1 &6661929048491096375
 GameObject:
   m_ObjectHideFlags: 0

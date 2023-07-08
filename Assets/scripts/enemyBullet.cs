@@ -15,6 +15,7 @@ public class enemyBullet : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         Vector2 movdir = (player.transform.position - transform.position).normalized * speed;
         rb.velocity = new Vector2(movdir.x, movdir.y);
+        Destroy(this.gameObject, 2);
     }
 
     // Update is called once per frame
