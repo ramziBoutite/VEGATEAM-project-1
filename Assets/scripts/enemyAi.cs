@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro.Examples;
 using UnityEngine;
 
 public class enemyAi : MonoBehaviour
@@ -11,15 +12,17 @@ public class enemyAi : MonoBehaviour
     public GameObject enemyBullet;
     public GameObject enemyBulletSpawn;
     private Animator anim;
-    public float fireRate = 3f;
-    private float nextFireTime;
+    public float fireRate;
+    private float timeOffiring;
+    private bool canFire;
     private Rigidbody2D rb;
+    private Vector2 dir;
     // Start is called before the first frame update
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
-       // enemyBullet = GameObject.FindGameObjecstWithTag("enemyBullet");
+     
         enemyBulletSpawn = GameObject.FindGameObjectWithTag("enemyBulletSpawn");
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
@@ -27,33 +30,43 @@ public class enemyAi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(rb.velocity.x < 0f)
+        dir = player.position - transform.position;
+        if (Mathf.Sign(dir.x) ==1 )
         {
-            transform.localScale = new Vector3(-1, 1, 1);
-        }
-        else if (rb.velocity.x > 0f)
+            transform.localScale = new Vector3(-1,1,1);        }
+
+        else if (Mathf.Sign(dir.x) == -1)
         {
             transform.localScale = new Vector3(1, 1, 1);
         }
+       
         float distancefromPlayer = Vector2.Distance(player.position, transform.position);
         if (distancefromPlayer < followDistance && distancefromPlayer > shootingRange)
         {
             transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
             anim.SetBool("walk",true);
         }
-        else if(distancefromPlayer< shootingRange && nextFireTime < Time.time)
+        else if(distancefromPlayer< shootingRange && canFire)
             {
-            nextFireTime = Time.time + fireRate;
+            canFire = false;
             anim.SetBool("shoot",true);
             Instantiate(enemyBullet, enemyBulletSpawn.transform.position, Quaternion.identity);
             
         }
         else
         {
-            anim.SetBool("shoot",false);
+            anim.SetBool("shoot", false);
             anim.SetBool("walk",false);
         }
+        if(!canFire) {
+            timeOffiring += Time.deltaTime;
+            if (timeOffiring > fireRate)
+                canFire = true;
+            timeOffiring = 0;
+            
+        }
     }
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;
