@@ -299,7 +299,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parrent: {fileID: 1730330574239138717}
   parrentGO: {fileID: 1730330574239138712}
-  shootGO: {fileID: 4805508302698995607}
+  shoot: {fileID: 7830541317265187248}
+  shoot_anim_time: 0
 --- !u!1 &7830541317265187254
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,3 +404,4 @@ MonoBehaviour:
   timeBetweenFiring: 0.7
   canFire: 1
   mov: {fileID: 1730330574239138712}
+  upShootAnim: {fileID: 7896627343316498858}

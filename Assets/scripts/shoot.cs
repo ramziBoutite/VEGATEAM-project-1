@@ -13,6 +13,7 @@ public class shoot : MonoBehaviour
     public float timeBetweenFiring;
     public bool canFire;
     public GameObject mov;
+    public Animator upShootAnim;
 
     
 
@@ -40,10 +41,12 @@ public class shoot : MonoBehaviour
         {
             canFire = false;
             Instantiate(bullet, bulletTransform.position, Quaternion.identity);
+            upShootAnim.SetBool("shoot", true);
 
         }
         else if (!canFire)
         {
+            upShootAnim.SetBool("shoot", false);
             timer += Time.deltaTime;
             if (timer > timeBetweenFiring)
             {

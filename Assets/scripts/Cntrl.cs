@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Cntrl : MonoBehaviour
@@ -7,15 +8,25 @@ public class Cntrl : MonoBehaviour
     private Animator Anim;
     public Rigidbody2D parrent;//for running animation
     public GameObject parrentGO;//for jumping animation
-    public GameObject shootgo;//for shooting animation
+   // public GameObject shootgo;//for shooting animation
+    public shoot shoot;
     private bool jumping;
     private bool fireGreenFlag;
+    private float time;
+    public float shoot_anim_time;
     // Start is called before the first frame update
-    void Start()
+
+     void Awake()
     {
         Anim = GetComponent<Animator>();
+        
+    }
+    void Start()
+    {
+
+        
        // parrentGO = GameObject.FindGameObjectWithTag("parrentGO");
-        shootgo = GameObject.FindGameObjectWithTag("shootgo");
+       // shootgo = GameObject.FindGameObjectWithTag("shootgo");
     }
 
     // Update is called once per frame
@@ -40,15 +51,19 @@ public class Cntrl : MonoBehaviour
         {
             Anim.SetBool("jump", false);
         }
-        //fireGreenFlag = shootgo.gameObject.GetComponent<shoot>().canFire;
-        if (Input.GetMouseButton(0) && fireGreenFlag)
+        
+
+       /* if (Input.GetMouseButton(0) && shoot.canFire )
         {
             Anim.SetBool("shoot", true);
-        }
-        else
-        {
-            Anim.SetBool("shoot",false);
-        }
+            time += Time.deltaTime;
+            if(time > shoot_anim_time*Time.deltaTime)
+            {
+                time = 0f;
+                Anim.SetBool("shoot", false);
+            }
+        }*/
+
 
     }
 }
