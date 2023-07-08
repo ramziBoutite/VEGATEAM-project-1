@@ -21,6 +21,7 @@ public class bullet : MonoBehaviour
         Vector3 rotation = transform.position - mousePos;
         float rot2 = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rot2 );
+        Destroy(this.gameObject, 3);
 
     }
     // Update is called once per frame

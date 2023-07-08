@@ -17,12 +17,14 @@ public class enemyAi : MonoBehaviour
     private bool canFire;
     private Rigidbody2D rb;
     private Vector2 dir;
+    public float shootAnimTime;
+    private float shootAnimTimer;
     // Start is called before the first frame update
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
-     
+        shootAnimTimer = 0f;
         enemyBulletSpawn = GameObject.FindGameObjectWithTag("enemyBulletSpawn");
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
@@ -48,8 +50,9 @@ public class enemyAi : MonoBehaviour
         }
         else if(distancefromPlayer <= shootingRange && canFire)
             {
-            anim.SetBool("shoot", true);
             Instantiate(enemyBullet, enemyBulletSpawn.transform.position, Quaternion.identity);
+            anim.SetTrigger("shootTrigger");
+    //        shootAnim();
             canFire = false;
             
             
@@ -66,13 +69,23 @@ public class enemyAi : MonoBehaviour
             {
                 canFire = true;
                 timeOffiring = 0f;
+                
             }
-            anim.SetBool("shoot", false);
+           
            
             
         }
     }
-
+     void shootAnim()
+    {
+        anim.SetBool("shoot", true);
+        shootAnimTimer += Time.deltaTime;
+        if(shootAnimTimer > shootAnimTime)
+        {
+            anim.SetBool("shoot", false);
+            shootAnimTimer = 0f;
+        }
+    }
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;

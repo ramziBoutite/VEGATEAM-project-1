@@ -14,7 +14,7 @@ public class enemyBullet : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         rb = gameObject.GetComponent<Rigidbody2D>();
         Vector2 movdir = (player.transform.position - transform.position).normalized * speed;
-        rb.velocity = new Vector2(movdir.x, movdir.y+ Random.Range(0.5f,1.5f));
+        rb.velocity = new Vector2(movdir.x, movdir.y+ Random.Range(0.5f,1.25f));
         Destroy(this.gameObject, 2);
     }
 
