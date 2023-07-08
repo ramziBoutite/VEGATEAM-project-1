@@ -8,6 +8,8 @@ public class playerHealth : MonoBehaviour
     public float health;
     public float maxhealth;
     public Image healthBar;
+    public GameManager gameManager;
+    private bool isDead;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,8 +20,11 @@ public class playerHealth : MonoBehaviour
     void Update()
     {
         healthBar.fillAmount = Mathf.Clamp(health / maxhealth, 0, 1);
-        if(health <= 0){
-            Destroy(gameObject);
+        if(health <= 0 && !isDead){
+            isDead = true;
+            gameObject.SetActive(false);
+            gameManager.gameOver();
+            
         }
     }
     
