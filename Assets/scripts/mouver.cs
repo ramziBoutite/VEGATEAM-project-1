@@ -57,7 +57,11 @@ public class mouver : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D other)
     {
-        Anim.SetBool("jump", true);
+        if (Mathf.Abs(rb.velocity.y) > 1f)
+        {
+            Anim.SetBool("jump", true);
+        }
+       
         if (other.gameObject.CompareTag("gnd")) isonair = true;
     }
     
