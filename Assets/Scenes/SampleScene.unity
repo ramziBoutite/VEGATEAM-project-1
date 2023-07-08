@@ -1064,10 +1064,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: si_moustfa 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1730330574239138712, guid: 6f42ec2d15b77d742b54c2380cd2b3da, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 1730330574239138717, guid: 6f42ec2d15b77d742b54c2380cd2b3da, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -1610,7 +1606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2751031831612681149, guid: 118d721efcf9db541b2cf0fb57f25ceb, type: 3}
       propertyPath: m_TagString
-      value: gnd
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -1895,10 +1891,6 @@ PrefabInstance:
     - target: {fileID: 1139989609135486129, guid: 4a00eccc19e79334583bfc1ab1bec88b, type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1139989609135486129, guid: 4a00eccc19e79334583bfc1ab1bec88b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1139989609135486129, guid: 4a00eccc19e79334583bfc1ab1bec88b, type: 3}
       propertyPath: m_LocalPosition.x
