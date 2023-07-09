@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MineDamage : MonoBehaviour
+public class mineDamage : MonoBehaviour
 {
     public float explosionTime;
     private float timer;

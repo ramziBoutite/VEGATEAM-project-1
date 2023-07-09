@@ -21,6 +21,7 @@ public class playerHealth : MonoBehaviour
     {
         healthBar.fillAmount = Mathf.Clamp(health / maxhealth, 0, 1);
         if(health <= 0 && !isDead){
+            GameObject.FindGameObjectWithTag("enemy").GetComponent<enemyAi>().gameOver = false;
             isDead = true;
             gameObject.SetActive(false);
             gameManager.gameOver();

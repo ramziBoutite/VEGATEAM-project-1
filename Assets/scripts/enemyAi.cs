@@ -19,6 +19,7 @@ public class enemyAi : MonoBehaviour
     private Vector2 dir;
     public float shootAnimTime;
     private float shootAnimTimer;
+    public bool gameOver;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +28,7 @@ public class enemyAi : MonoBehaviour
         shootAnimTimer = 0f;
         enemyBulletSpawn = GameObject.FindGameObjectWithTag("enemyBulletSpawn");
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        gameOver = true;
     }
 
     // Update is called once per frame
@@ -48,11 +50,10 @@ public class enemyAi : MonoBehaviour
             transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
             anim.SetBool("walk",true);
         }
-        else if(distancefromPlayer <= shootingRange && canFire)
+        else if(distancefromPlayer <= shootingRange && canFire && gameOver)
             {
             Instantiate(enemyBullet, enemyBulletSpawn.transform.position, Quaternion.identity);
             anim.SetTrigger("shootTrigger");
-    //        shootAnim();
             canFire = false;
             
             
@@ -70,26 +71,20 @@ public class enemyAi : MonoBehaviour
                 canFire = true;
                 timeOffiring = 0f;
                 
-            }
-           
-           
-            
+            }  
         }
     }
-     void shootAnim()
-    {
-        anim.SetBool("shoot", true);
-        shootAnimTimer += Time.deltaTime;
-        if(shootAnimTimer > shootAnimTime)
-        {
-            anim.SetBool("shoot", false);
-            shootAnimTimer = 0f;
-        }
-    }
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, followDistance);
         Gizmos.DrawWireSphere(transform.position, shootingRange);
+    }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.CompareTag("bullet"))
+        { }
+
     }
 }
