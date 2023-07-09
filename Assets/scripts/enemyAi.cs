@@ -71,7 +71,7 @@ public class enemyAi : MonoBehaviour
         if(!canFire) {
            
             timeOffiring += Time.deltaTime;
-            if (timeOffiring > Random.Range( fireRate-0.1f,fireRate+ 0.2f))
+            if (timeOffiring > Random.Range( fireRate,fireRate+ 0.9f))
             {
                 canFire = true;
                 timeOffiring = 0f;
