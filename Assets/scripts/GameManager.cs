@@ -5,24 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    void Start() {
-      Cursor.visible = false;
+//     void Start() {
+//       Cursor.visible = false;
       
-   }
-    void Update() {
-      if(gameOverUI.activeInHierarchy)
-      {
-          Cursor.visible = true;
+//    }
+//     void Update() {
+//       if(gameOverUI.activeInHierarchy)
+//       {
+//           Cursor.visible = true;
       
-      }else{
-          Cursor.visible = false;
+//       }else{
+//           Cursor.visible = false;
       
-      }
-   }
+//       }
+//    }
    public GameObject gameOverUI;
 
+
    public void gameOver(){
-    gameOverUI.SetActive(true);
+    SceneManager.LoadScene("GameOver");
    }
    public void restart()
    {
