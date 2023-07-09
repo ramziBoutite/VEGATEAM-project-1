@@ -17,14 +17,18 @@ public class enemyAi : MonoBehaviour
     private bool canFire;
     private Rigidbody2D rb;
     private Vector2 dir;
+    public float shootAnimTime;
+    private float shootAnimTimer;
+    public bool gameOver;
     // Start is called before the first frame update
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
-     
+        shootAnimTimer = 0f;
         enemyBulletSpawn = GameObject.FindGameObjectWithTag("enemyBulletSpawn");
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        gameOver = true;
     }
 
     // Update is called once per frame
@@ -46,24 +50,28 @@ public class enemyAi : MonoBehaviour
             transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
             anim.SetBool("walk",true);
         }
-        else if(distancefromPlayer< shootingRange && canFire)
+        else if(distancefromPlayer <= shootingRange && canFire && gameOver)
             {
-            canFire = false;
-            anim.SetBool("shoot",true);
             Instantiate(enemyBullet, enemyBulletSpawn.transform.position, Quaternion.identity);
+            anim.SetTrigger("shootTrigger");
+            canFire = false;
+            
             
         }
         else
         {
-            anim.SetBool("shoot", false);
+           
             anim.SetBool("walk",false);
         }
         if(!canFire) {
+           
             timeOffiring += Time.deltaTime;
             if (timeOffiring > fireRate)
+            {
                 canFire = true;
-            timeOffiring = 0;
-            
+                timeOffiring = 0f;
+                
+            }  
         }
     }
 
@@ -72,5 +80,11 @@ public class enemyAi : MonoBehaviour
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, followDistance);
         Gizmos.DrawWireSphere(transform.position, shootingRange);
+    }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.CompareTag("bullet"))
+        { }
+
     }
 }
