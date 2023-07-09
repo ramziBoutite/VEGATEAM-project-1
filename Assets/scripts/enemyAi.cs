@@ -18,8 +18,6 @@ public class enemyAi : MonoBehaviour
     private bool canFire;
     private Rigidbody2D rb;
     private Vector2 dir;
-    public float shootAnimTime;
-    private float shootAnimTimer;
     public bool gameOver;
     private bool isdead ;
     private float deadTimer;
@@ -29,7 +27,6 @@ public class enemyAi : MonoBehaviour
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
-        shootAnimTimer = 0f;
         enemyBulletSpawn = GameObject.FindGameObjectWithTag("enemyBulletSpawn");
         player = GameObject.FindGameObjectWithTag("Player").transform;
         gameOver = false;
@@ -78,6 +75,14 @@ public class enemyAi : MonoBehaviour
                 
             }  
         }
+        if(isdead)
+        {
+            deadTimer += Time.deltaTime;
+            if (deadTimer > deadAnimTime)
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 
     private void OnDrawGizmosSelected()
@@ -86,22 +91,12 @@ public class enemyAi : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, followDistance);
         Gizmos.DrawWireSphere(transform.position, shootingRange);
     }
-    /* private void OnCollisionEnter2D(Collision2D other)
-     {
-         
-
-     }*/
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("bullet"))
         {
             anim.SetTrigger("death");
             isdead = true;
-            deadTimer += Time.deltaTime;
-            if (deadTimer > deadAnimTime)
-            {
-                Destroy(gameObject);
-            }
 
         }
     }

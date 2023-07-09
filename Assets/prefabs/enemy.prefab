@@ -164,9 +164,8 @@ MonoBehaviour:
   enemyBullet: {fileID: 9082158102181301072, guid: 293dd4cc6e069324791537641dbd05d0, type: 3}
   enemyBulletSpawn: {fileID: 6661929048491096375}
   fireRate: 1.5
-  shootAnimTime: 0.1
   gameOver: 0
-  deadAnimTime: 0.09
+  deadAnimTime: 1
 --- !u!1 &6661929048491096375
 GameObject:
   m_ObjectHideFlags: 0

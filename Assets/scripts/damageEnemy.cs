@@ -6,7 +6,7 @@ public class damageEnemy : MonoBehaviour
 { 
     private GameObject other ;
     // Start is called before the first frame update
-    void Start()
+    /*void Start()
     {
         other = GameObject.FindGameObjectWithTag("Bullet");
     }
@@ -19,5 +19,5 @@ public class damageEnemy : MonoBehaviour
         Destroy(gameObject);
        } 
     }
-}
+}*/
 }
