@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5114950870466319254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5114950870466319248}
+  - component: {fileID: 5114950870466319249}
+  m_Layer: 0
+  m_Name: AudioList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5114950870466319248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5114950870466319254}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.184508, y: 3.3034935, z: 497.6322}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5114950870466319249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5114950870466319254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 750afc413fab1234988f60bd5a564e8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Shoot
+    clip: {fileID: 8300000, guid: 060302b523625da4fa1730657a647990, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Mine
+    clip: {fileID: 8300000, guid: c37e8b727e0834a47a9c86a542b16902, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: ShootE
+    clip: {fileID: 8300000, guid: c50dfe5de1d300444ad983d39092000f, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Death
+    clip: {fileID: 8300000, guid: 141460be9abaee442ad1982cf33c4397, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
