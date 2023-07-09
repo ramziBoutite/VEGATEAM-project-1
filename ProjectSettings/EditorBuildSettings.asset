@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 71d276d5ad8ee8342b5aac8595c82373
   - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 06feddc068b046047b22b8f6ca167df4
+  - enabled: 1
     path: Assets/Scenes/RoadToVillage.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -17,9 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/prison.unity
     guid: 7cd467bee270e76468b068e2eace4413
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: b36d5f865d354f14d94218b9e8edff8e
   - enabled: 1
     path: Assets/Scenes/underground.unity
     guid: 7b4a573b6c76ec84aae79d5c212edd6b
