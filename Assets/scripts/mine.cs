@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class mine : MonoBehaviour
 {
+    private bool isdead;
+    private float deadTimer;
+    public float deadAnimTime;
     private Animator anim;
     private void Awake()
     {
@@ -18,7 +21,14 @@ public class mine : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(isdead)
+        {
+            deadTimer += Time.deltaTime;
+            if (deadTimer > deadAnimTime)
+            {
+                Destroy(gameObject);
+            }
+        }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -27,6 +37,7 @@ public class mine : MonoBehaviour
         {
             FindObjectOfType<AudioManager>().Play("Mine");
             anim.SetBool("explode", true);
+            isdead = true;
         }
         
     }
