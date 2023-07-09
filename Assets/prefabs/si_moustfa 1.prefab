@@ -191,7 +191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daa3e384c4b462e4b8bc6ea11a05426b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 160
   maxhealth: 0
   healthBar: {fileID: 8868055832276329516, guid: 83f02db293d62bb4f82914ae768dc8e5, type: 3}
   gameManager: {fileID: 2737978283166486139, guid: 29e2f3a2a446b9c44a160441857580e4, type: 3}
@@ -418,7 +418,7 @@ MonoBehaviour:
   bullet: {fileID: 5960604975250361728, guid: 5711218af20049443a41a3ba612be0b9, type: 3}
   bulletTransform: {fileID: 5103068221595359675}
   aimTransform: {fileID: 5103068221595359675}
-  timeBetweenFiring: 0.7
+  timeBetweenFiring: 0.5
   canFire: 1
   mov: {fileID: 1730330574239138712}
   upShootAnim: {fileID: 7896627343316498858}
