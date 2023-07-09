@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro.Examples;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class enemyAi : MonoBehaviour
@@ -17,18 +18,19 @@ public class enemyAi : MonoBehaviour
     private bool canFire;
     private Rigidbody2D rb;
     private Vector2 dir;
-    public float shootAnimTime;
-    private float shootAnimTimer;
     public bool gameOver;
+    private bool isdead ;
+    private float deadTimer;
+    public float deadAnimTime;
     // Start is called before the first frame update
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
-        shootAnimTimer = 0f;
-        enemyBulletSpawn = GameObject.FindGameObjectWithTag("enemyBulletSpawn");
+        //enemyBulletSpawn = GameObject.FindGameObjectWithTag("enemyBulletSpawn");
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        gameOver = true;
+        gameOver = false;
+        deadTimer = 0f;
     }
 
     // Update is called once per frame
@@ -50,7 +52,7 @@ public class enemyAi : MonoBehaviour
             transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
             anim.SetBool("walk",true);
         }
-        else if(distancefromPlayer <= shootingRange && canFire && gameOver)
+        else if(distancefromPlayer <= shootingRange && canFire && !gameOver && !isdead)
             {
             Instantiate(enemyBullet, enemyBulletSpawn.transform.position, Quaternion.identity);
             anim.SetTrigger("shootTrigger");
@@ -66,12 +68,20 @@ public class enemyAi : MonoBehaviour
         if(!canFire) {
            
             timeOffiring += Time.deltaTime;
-            if (timeOffiring > fireRate)
+            if (timeOffiring > Random.Range( fireRate,fireRate+ 0.9f))
             {
                 canFire = true;
                 timeOffiring = 0f;
                 
             }  
+        }
+        if(isdead)
+        {
+            deadTimer += Time.deltaTime;
+            if (deadTimer > deadAnimTime)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 
@@ -81,10 +91,13 @@ public class enemyAi : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, followDistance);
         Gizmos.DrawWireSphere(transform.position, shootingRange);
     }
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("bullet"))
-        { }
+        if (other.gameObject.CompareTag("bullet"))
+        {
+            anim.SetTrigger("death");
+            isdead = true;
 
+        }
     }
 }

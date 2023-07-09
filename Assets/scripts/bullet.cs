@@ -27,7 +27,11 @@ public class bullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gameObject.transform.position.x > 5000f || gameObject.transform.position.x < -5000f || gameObject.transform.position.y < -100f || gameObject.transform.position.y > 100f)
+
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.CompareTag("enemy"))
         {
             Destroy(gameObject);
         }
