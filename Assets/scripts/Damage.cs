@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Damage : MonoBehaviour
 {
-    public playerHealth pHealth;
+    
     public float damage;
     // Start is called before the first frame update
     void Start()
@@ -17,9 +17,13 @@ public class Damage : MonoBehaviour
     {
         
     }
-     private void OnCollisionEnter2D(Collision2D other) {
-       if(other.gameObject.CompareTag("Player")){
-        pHealth.health -= damage;
-       } 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            other.gameObject.GetComponent<playerHealth>().health -= damage;
+            Destroy(gameObject);
+        }
     }
+ 
 }
