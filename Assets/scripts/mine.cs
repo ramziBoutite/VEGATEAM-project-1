@@ -23,7 +23,9 @@ public class mine : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.CompareTag("Player"))
+
         {
+            FindObjectOfType<AudioManager>().Play("Mine");
             anim.SetBool("explode", true);
         }
         

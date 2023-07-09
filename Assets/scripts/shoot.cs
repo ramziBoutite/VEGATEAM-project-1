@@ -39,6 +39,8 @@ public class shoot : MonoBehaviour
         }
         if (Input.GetMouseButton(0) && canFire)
         {
+
+            FindObjectOfType<AudioManager>().Play("Shoot");
             canFire = false;
             Instantiate(bullet, bulletTransform.position, Quaternion.identity);
             upShootAnim.SetBool("shoot", true);
