@@ -317,7 +317,7 @@ MonoBehaviour:
   parrent: {fileID: 1730330574239138717}
   parrentGO: {fileID: 1730330574239138712}
   shoot: {fileID: 7830541317265187248}
-  shoot_anim_time: 0
+  shoot_anim_time: 0.5
 --- !u!1 &7830541317265187254
 GameObject:
   m_ObjectHideFlags: 0
