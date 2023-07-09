@@ -6,8 +6,13 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
+     private string lastSceneName = "RoadToVillage";
+
     public GameObject pauseMenuUI;
     // Update is called once per frame
+    void Start(){
+       
+    }
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape)){
@@ -31,12 +36,23 @@ public class PauseMenu : MonoBehaviour
    }
     public void restartfromDEATH()
    {
-    SceneManager.LoadScene("SampleScene");
+    SceneManager.LoadScene(lastSceneName);
      pauseMenuUI.SetActive(false);
      Time.timeScale = 1f;
      GameIsPaused= false;
 
    }
+     public void SetLastSceneName(string sceneName)
+    {
+        lastSceneName = sceneName;
+    }
+
+    private void OnDestroy()
+    {
+        // Save the last scene name to PlayerPrefs
+        PlayerPrefs.SetString("LastSceneName", lastSceneName);
+        PlayerPrefs.Save();
+    }
     
     
         
