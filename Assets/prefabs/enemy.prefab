@@ -158,15 +158,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac12fa46328726c4aad18eaeb4e67d3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
-  followDistance: 7.35
-  shootingRange: 3.85
+  speed: 2.5
+  followDistance: 9.14
+  shootingRange: 4.08
   enemyBullet: {fileID: 9082158102181301072, guid: 293dd4cc6e069324791537641dbd05d0, type: 3}
   enemyBulletSpawn: {fileID: 6661929048491096375}
   fireRate: 1.5
   shootAnimTime: 0.1
   gameOver: 0
-  deadAnimTime: 0.1
+  deadAnimTime: 0.09
 --- !u!1 &6661929048491096375
 GameObject:
   m_ObjectHideFlags: 0
