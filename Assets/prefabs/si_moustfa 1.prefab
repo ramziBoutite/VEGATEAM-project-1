@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7201657805166790329}
   - component: {fileID: 6483607418164790266}
   - component: {fileID: 7830541318339968976}
+  - component: {fileID: 7871490644400407257}
   m_Layer: 0
   m_Name: si_moustfa 1
   m_TagString: Player
@@ -178,6 +179,22 @@ CapsuleCollider2D:
   m_Offset: {x: 0.052262604, y: 0.26711902}
   m_Size: {x: 0.45103037, y: 0.8575162}
   m_Direction: 0
+--- !u!114 &7871490644400407257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730330574239138712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa3e384c4b462e4b8bc6ea11a05426b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxhealth: 0
+  healthBar: {fileID: 8868055832276329516, guid: 83f02db293d62bb4f82914ae768dc8e5, type: 3}
+  gameManager: {fileID: 2737978283166486139, guid: 29e2f3a2a446b9c44a160441857580e4, type: 3}
 --- !u!1 &4805508302698995607
 GameObject:
   m_ObjectHideFlags: 0
