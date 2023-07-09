@@ -27,7 +27,7 @@ public class enemyAi : MonoBehaviour
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
-        enemyBulletSpawn = GameObject.FindGameObjectWithTag("enemyBulletSpawn");
+        //enemyBulletSpawn = GameObject.FindGameObjectWithTag("enemyBulletSpawn");
         player = GameObject.FindGameObjectWithTag("Player").transform;
         gameOver = false;
         deadTimer = 0f;
