@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 71d276d5ad8ee8342b5aac8595c82373
   - enabled: 1
-    path: Assets/Scenes/prison.unity
-    guid: 7cd467bee270e76468b068e2eace4413
-  - enabled: 1
     path: Assets/Scenes/RoadToVillage.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/prison.unity
+    guid: 7cd467bee270e76468b068e2eace4413
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: e6262c1611586ac4d952c33f69fe702c
