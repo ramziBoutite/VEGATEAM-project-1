@@ -536,7 +536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialoguePanel: {fileID: 1076160438}
-  DialogueText: {fileID: 917657158}
+  DialogueText: {fileID: 873664847}
   Dialogue:
   - Salam Aliykum
   - Ya Mustapha rani meditlek slah li raho f yedek sreqto lwehed el aesas, djibelna
@@ -566,7 +566,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &746894838
 RectTransform:
   m_ObjectHideFlags: 0
@@ -889,10 +889,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1138,7 +1138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1076160439
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1153,8 +1153,8 @@ RectTransform:
   m_Children:
   - {fileID: 1233569903}
   - {fileID: 1830990841}
-  - {fileID: 746894838}
   - {fileID: 873664846}
+  - {fileID: 746894838}
   m_Father: {fileID: 1299205765}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2308,7 +2308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2252933558455263901, guid: 236c21ff6f13700459cf5f4620b37fe9, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -491.98328
+      value: -491.9833
       objectReference: {fileID: 0}
     - target: {fileID: 2252933558455263901, guid: 236c21ff6f13700459cf5f4620b37fe9, type: 3}
       propertyPath: m_AnchoredPosition.y
