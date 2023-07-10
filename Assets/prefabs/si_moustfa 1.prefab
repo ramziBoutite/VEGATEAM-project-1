@@ -195,6 +195,7 @@ MonoBehaviour:
   maxhealth: 0
   healthBar: {fileID: 8868055832276329516, guid: 83f02db293d62bb4f82914ae768dc8e5, type: 3}
   gameManager: {fileID: 2737978283166486139, guid: 29e2f3a2a446b9c44a160441857580e4, type: 3}
+  deadSoundTime: 0.5
 --- !u!1 &4805508302698995607
 GameObject:
   m_ObjectHideFlags: 0
