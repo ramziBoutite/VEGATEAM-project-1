@@ -12,17 +12,24 @@ public class npc : MonoBehaviour
 
     public GameObject contButton;
     public float WordSpeed;
-    public bool playerIsClose;
+    public bool playerIsClose ;
 
     private Coroutine dialogueCoroutine;
 
+    private void Start()
+    {
+        playerIsClose = false;
+    }
+
     void Update()
     {
-        if (playerIsClose && !DialoguePanel.activeInHierarchy)
+
+        if (playerIsClose && !DialoguePanel.activeInHierarchy )
         {
             DialoguePanel.SetActive(true);
             StartDialogue();
         }
+        
 
         if (DialogueText.text == Dialogue[index])
         {
@@ -80,8 +87,9 @@ public class npc : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerIsClose = false;
-            //StopCoroutine(dialogueCoroutine);
+            StopCoroutine(dialogueCoroutine);
             ZeroText();
         }
     }
+    
 }
