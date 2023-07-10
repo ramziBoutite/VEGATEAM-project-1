@@ -1313,8 +1313,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2021184844}
-        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+      - m_Target: {fileID: 2021184845}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: restart
         m_Mode: 1
         m_Arguments:
