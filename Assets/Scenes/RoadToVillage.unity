@@ -2436,8 +2436,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4513, y: -53}
-  m_SizeDelta: {x: -541.17, y: -369.22}
+  m_AnchoredPosition: {x: 57, y: 2}
+  m_SizeDelta: {x: -510, y: -332.27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &976117407
 MonoBehaviour:
@@ -4142,7 +4142,8 @@ MonoBehaviour:
   DialogueText: {fileID: 1657444837}
   Dialogue:
   - Azul
-  - Balak maeqeltnich bsah ana sahbek tae bekri
+  - ahla moustafa rak towelt 3lina, ana sahbek tae bekri
+  - dechra rahi m3emra 3asker, ylzem nro7o nselkohom.
   - Arkeb maena ndok le Dechra
   contButton: {fileID: 949857735}
   WordSpeed: 0.02
