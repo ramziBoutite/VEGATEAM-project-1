@@ -728,7 +728,6 @@ PrefabInstance:
     - target: {fileID: 8168496631829060660, guid: 15001ee31cbf2c340a149cc2d2473351, type: 3}
       propertyPath: m_RootOrder
       value: 21
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8168496631829060660, guid: 15001ee31cbf2c340a149cc2d2473351, type: 3}
       propertyPath: m_LocalPosition.x
@@ -917,7 +916,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 25
-  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &483244226
 MonoBehaviour:
@@ -1821,7 +1819,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &849939589
 MonoBehaviour:
@@ -1976,7 +1974,6 @@ PrefabInstance:
     - target: {fileID: 2751031831612681144, guid: 118d721efcf9db541b2cf0fb57f25ceb, type: 3}
       propertyPath: m_RootOrder
       value: 17
-      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2751031831612681144, guid: 118d721efcf9db541b2cf0fb57f25ceb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2727,7 +2724,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 19
-  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1137500487
 PrefabInstance:
@@ -3086,7 +3082,6 @@ PrefabInstance:
     - target: {fileID: 2751031831612681144, guid: 118d721efcf9db541b2cf0fb57f25ceb, type: 3}
       propertyPath: m_RootOrder
       value: 9
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2751031831612681144, guid: 118d721efcf9db541b2cf0fb57f25ceb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3713,7 +3708,6 @@ PrefabInstance:
     - target: {fileID: 2751031831612681144, guid: 118d721efcf9db541b2cf0fb57f25ceb, type: 3}
       propertyPath: m_RootOrder
       value: 14
-      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2751031831612681144, guid: 118d721efcf9db541b2cf0fb57f25ceb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4172,7 +4166,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 24
-  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1698574003
 MonoBehaviour:
@@ -4431,7 +4424,6 @@ RectTransform:
   - {fileID: 976117406}
   m_Father: {fileID: 0}
   m_RootOrder: 16
-  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4462,7 +4454,6 @@ PrefabInstance:
     - target: {fileID: 2751031831612681144, guid: 118d721efcf9db541b2cf0fb57f25ceb, type: 3}
       propertyPath: m_RootOrder
       value: 8
-      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2751031831612681144, guid: 118d721efcf9db541b2cf0fb57f25ceb, type: 3}
       propertyPath: m_LocalScale.z
@@ -5040,9 +5031,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: RESUME
+  m_text: kemel l3bek
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -5106,7 +5097,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2107871369
@@ -5219,7 +5210,6 @@ PrefabInstance:
     - target: {fileID: 1917886145416503421, guid: 2764f310fb9b27143802b82a4a7e4c7e, type: 3}
       propertyPath: m_RootOrder
       value: 15
-      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1917886145416503421, guid: 2764f310fb9b27143802b82a4a7e4c7e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5599,7 +5589,6 @@ PrefabInstance:
     - target: {fileID: 8168496631829060660, guid: 15001ee31cbf2c340a149cc2d2473351, type: 3}
       propertyPath: m_RootOrder
       value: 20
-      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 8168496631829060660, guid: 15001ee31cbf2c340a149cc2d2473351, type: 3}
       propertyPath: m_LocalPosition.x
