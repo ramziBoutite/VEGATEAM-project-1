@@ -419,7 +419,7 @@ MonoBehaviour:
   bullet: {fileID: 5960604975250361728, guid: 5711218af20049443a41a3ba612be0b9, type: 3}
   bulletTransform: {fileID: 5103068221595359675}
   aimTransform: {fileID: 5103068221595359675}
-  timeBetweenFiring: 0.5
+  timeBetweenFiring: 0.7
   canFire: 1
   mov: {fileID: 1730330574239138712}
   upShootAnim: {fileID: 7896627343316498858}
