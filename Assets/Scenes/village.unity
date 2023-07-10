@@ -2270,6 +2270,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2270097216622994306, guid: 36b02a775d855144fa5d22a6fd8d3ea6, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270097216622994306, guid: 36b02a775d855144fa5d22a6fd8d3ea6, type: 3}
       propertyPath: pauseMenuUI
       value: 
       objectReference: {fileID: 1979767666}
@@ -4680,6 +4684,14 @@ PrefabInstance:
     - target: {fileID: 8904967407494297100, guid: ac99a973213567c428acdd1a2b5069a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904967407945508829, guid: ac99a973213567c428acdd1a2b5069a0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2737978283166486116, guid: 29e2f3a2a446b9c44a160441857580e4, type: 3}
+    - target: {fileID: 8904967407945508829, guid: ac99a973213567c428acdd1a2b5069a0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
