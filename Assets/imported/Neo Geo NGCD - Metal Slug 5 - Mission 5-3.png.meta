@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 59c3db8a294214646b7a194d7936ad9e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 5 - Mission 5-3_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 496
+        width: 304
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a421f3ab86ce042b5fc19c6130046d
+      internalID: -236074771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 5 - Mission 5-3_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 496
+        width: 304
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84390f2eaaccc34eb8a64af0ee07f54
+      internalID: -454441810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 5 - Mission 5-3_12
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 496
+        width: 304
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1400dd78e719e2f4bb711db3f8b2ed5d
+      internalID: 1214352051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 5 - Mission 5-3_13
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 498
+        width: 304
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6bbb735da51c94482f636c6ca7f173
+      internalID: -1736202587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 5 - Mission 5-3_14
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 496
+        width: 304
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0babf6bfae57ca54993c7b59e4a74619
+      internalID: 1975586945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 5 - Mission 5-3_15
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 496
+        width: 304
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5ec624283327240a4f9734094d6daf
+      internalID: 2104713790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 5 - Mission 5-3_16
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 496
+        width: 304
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879832409cee26642a86e0c286af1ad4
+      internalID: -305219749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 5 - Mission 5-3_17
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 496
+        width: 304
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3abbd6d79cc0cc4384d84ca825f6933
+      internalID: -867200818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 5 - Mission 5-3_18
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 208
+        width: 1884
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63dabf468f9d25499a9d8382cb26ccd
+      internalID: -516771987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 5 - Mission 5-3_30
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 160
+        width: 304
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e730e24412a9349bc1663521a9e7be
+      internalID: 767529925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 5 - Mission 5-3_31
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 85
+        width: 859
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b523a8ad7a45fe14692e05d7c61add5d
+      internalID: -1474540518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 5 - Mission 5-3_32
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 85
+        width: 626
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810372ea8a923ef48b30c80b8fea8c04
+      internalID: 912261424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_118: 1347278188
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_84: -1767903281
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_111: -1900753164
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_4: 1143926031
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_62: 469150151
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_66: 1442398515
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_33: -384440804
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_10: -236074771
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_103: -560238174
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_49: -1052647993
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_64: -394953643
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_43: -114851069
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_124: 2084868448
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_52: 1291309905
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_13: -1736202587
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_56: 1957905945
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_87: 194762573
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_95: -222680039
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_126: -1475282889
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_115: -305644998
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_74: -103796991
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_91: 1579066531
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_35: -444080109
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_69: 868915446
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_78: 1770200975
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_85: 86180732
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_112: 1745630370
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_20: -893180646
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_102: 916463124
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_29: 1808064857
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_41: -1513172187
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_82: -1743990050
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_114: 2076701343
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_58: -1185658394
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_14: 1975586945
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_100: 217463643
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_72: 215080741
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_97: -1447204472
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_76: 413297930
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_39: -417820896
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_2: -1441083995
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_26: 1486241755
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_93: -1780428718
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_105: 795559964
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_107: -745359976
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_80: 1940535649
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_37: -448502634
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_45: -1245456862
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_125: 1158498119
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_81: -31473562
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_94: -1382663096
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_123: -1604001683
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_133: -1102842103
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_15: 2104713790
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_12: 1214352051
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_3: -1909351639
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_77: -83826918
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_8: 357813155
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_34: 601701792
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_1: -788720195
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_11: -454441810
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_9: -2045445402
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_24: 852612707
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_60: -773932692
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_98: -1253264586
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_30: 767529925
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_75: 1085810215
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_99: -2054458090
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_109: 1868420491
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_6: -1526625518
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_88: -574527378
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_57: -1305435106
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_113: -1254037789
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_63: 133928595
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_130: -884853317
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_44: 1795497150
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_5: -1427279084
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_121: -757775831
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_119: 1247757459
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_21: -12044151
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_23: -1752190412
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_122: -1243061473
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_70: 1314323894
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_71: 416811376
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_0: 1302522062
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_16: -305219749
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_104: -127038373
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_116: 153736311
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_108: 290359236
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_17: -867200818
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_50: -1176624708
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_83: 1552382160
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_27: 446017450
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_51: 827709453
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_65: -231609091
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_36: 693036624
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_79: 644277109
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_106: -220529391
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_134: 1471978903
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_19: -940998232
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_120: 980513268
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_110: -962812427
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_61: 556023473
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_92: 941327769
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_40: -902158773
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_42: -1782226372
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_96: -1132869232
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_22: -1137078439
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_38: -722000733
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_53: -1558558241
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_128: 272120287
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_28: 1887953448
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_131: -1397041643
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_25: -40733879
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_68: 317067685
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_86: 1828684190
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_73: 941455180
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_135: -2064047389
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_48: -1557510938
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_55: -757834400
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_90: -1722859232
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_89: -565691667
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_54: -265230048
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_67: -1920285911
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_127: 344127820
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_18: -516771987
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_59: 1450795396
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_47: -955467040
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_129: 878461268
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_117: -1659360357
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_7: 94825727
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_132: 1803396844
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_46: -1388309975
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_31: -1474540518
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_101: -779017023
+      Neo Geo NGCD - Metal Slug 5 - Mission 5-3_32: 912261424
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
