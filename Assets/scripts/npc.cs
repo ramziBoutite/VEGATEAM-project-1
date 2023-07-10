@@ -80,7 +80,7 @@ public class npc : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerIsClose = false;
-            StopCoroutine(dialogueCoroutine);
+            //StopCoroutine(dialogueCoroutine);
             ZeroText();
         }
     }
