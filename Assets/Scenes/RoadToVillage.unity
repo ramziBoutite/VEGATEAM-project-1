@@ -2276,7 +2276,7 @@ GameObject:
   - component: {fileID: 949857738}
   - component: {fileID: 949857737}
   m_Layer: 5
-  m_Name: ContinueButton
+  m_Name: ContinueButton2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2409,7 +2409,7 @@ GameObject:
   - component: {fileID: 976117408}
   - component: {fileID: 976117407}
   m_Layer: 5
-  m_Name: DialoguePanel
+  m_Name: DialoguePanel2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2849,7 +2849,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 208, y: -21.61}
+  m_AnchoredPosition: {x: 208, y: -21.609985}
   m_SizeDelta: {x: -460.27, y: -336.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1227066884
@@ -3727,7 +3727,7 @@ GameObject:
   - component: {fileID: 1645297486}
   - component: {fileID: 1645297485}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: SiOmar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3807,7 +3807,7 @@ GameObject:
   - component: {fileID: 1657444838}
   - component: {fileID: 1657444837}
   m_Layer: 5
-  m_Name: DialogueText
+  m_Name: DialogueText2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4046,7 +4046,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.01, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4057,7 +4057,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.21, y: 4.96}
+  m_Size: {x: 2.26, y: 6.56}
   m_EdgeRadius: 0
 --- !u!212 &1698574001
 SpriteRenderer:
