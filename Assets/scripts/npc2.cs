@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class npc : MonoBehaviour
+public class npc2 : MonoBehaviour
 {
     public GameObject DialoguePanel;
     public Text DialogueText;
@@ -12,24 +12,17 @@ public class npc : MonoBehaviour
 
     public GameObject contButton;
     public float WordSpeed;
-    public bool playerIsClose ;
+    public bool playerIsClose;
 
     private Coroutine dialogueCoroutine;
 
-    private void Start()
-    {
-        playerIsClose = false;
-    }
-
     void Update()
     {
-
-        if (playerIsClose && !DialoguePanel.activeInHierarchy )
+        if (playerIsClose && !DialoguePanel.activeInHierarchy)
         {
             DialoguePanel.SetActive(true);
             StartDialogue();
         }
-        
 
         if (DialogueText.text == Dialogue[index])
         {
@@ -91,5 +84,4 @@ public class npc : MonoBehaviour
             ZeroText();
         }
     }
-    
 }
