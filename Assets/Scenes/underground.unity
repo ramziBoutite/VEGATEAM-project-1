@@ -431,6 +431,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 688223213743271098, guid: c228e0a6d8259924ea5fac553150a4ab, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 12556.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 688223213743271098, guid: c228e0a6d8259924ea5fac553150a4ab, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 4749.57
+      objectReference: {fileID: 0}
     - target: {fileID: 688223214436185253, guid: c228e0a6d8259924ea5fac553150a4ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: restartfromDEATH
