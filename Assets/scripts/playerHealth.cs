@@ -29,8 +29,7 @@ public class playerHealth : MonoBehaviour
         healthBar.fillAmount = Mathf.Clamp(health / maxhealth, 0, 1);
         if (health <= 0 && !isDead)
         {
-
-            FindObjectOfType<AudioManager>().Play("Death");
+            
 
             GameObject.FindGameObjectWithTag("enemy").GetComponent<enemyAi>().gameOver = true;
 
@@ -41,29 +40,24 @@ public class playerHealth : MonoBehaviour
 
 
 
-                IEnumerator Start()
-                {
-                    yield return StartCoroutine(FirstTask());
-
+               
                 }
+                
+               
+            FindObjectOfType<AudioManager>().Play("Death");
+            
+            
+            SceneManager.LoadScene("GameOver");
 
+           
 
-                IEnumerator FirstTask()
-                {
-
-                    print("wait");
-                    yield return new WaitForSeconds(4f);
-                }
-
-
-                SceneManager.LoadScene("GameOver");
+    }
+                
             }
 
 
         }
-
-    }
-}
+       
     
     
 

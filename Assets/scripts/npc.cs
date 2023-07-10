@@ -23,19 +23,22 @@ public class npc : MonoBehaviour
 
     void Update()
     {
-
+if(Input.GetKey(KeyCode.Escape)){
+    DialoguePanel.SetActive(false);
+}else{
         if (playerIsClose && !DialoguePanel.activeInHierarchy )
         {
             DialoguePanel.SetActive(true);
             StartDialogue();
         }
         
+        
 
         if (DialogueText.text == Dialogue[index])
         {
             contButton.SetActive(true);
         }
-    }
+    }}
 
     public void ZeroText()
     {

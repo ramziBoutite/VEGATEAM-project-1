@@ -17,7 +17,9 @@ public class npc2 : MonoBehaviour
     private Coroutine dialogueCoroutine;
 
     void Update()
-    {
+    {if(Input.GetKey(KeyCode.Escape)){
+    DialoguePanel.SetActive(false);
+}else{
         if (playerIsClose && !DialoguePanel.activeInHierarchy)
         {
             DialoguePanel.SetActive(true);
@@ -28,7 +30,7 @@ public class npc2 : MonoBehaviour
         {
             contButton.SetActive(true);
         }
-    }
+    }}
 
     public void ZeroText()
     {
