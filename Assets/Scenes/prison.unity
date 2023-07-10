@@ -657,7 +657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialoguePanel: {fileID: 1076160438}
-  DialogueText: {fileID: 0}
+  DialogueText: {fileID: 873664847}
   Dialogue:
   - Salam Aliykum
   - Ya Mustapha rani meditlek slah li raho f yedek sreqto lwehed el aesas, djibelna
